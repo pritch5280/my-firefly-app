@@ -1,0 +1,73 @@
+/*
+* <license header>
+*/
+
+
+html, body {
+  margin: 0;
+}
+
+.provider {
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  margin: 15px auto 20px auto;
+}
+
+.main-actions {
+  margin: auto auto 20px auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions-title {
+  margin: auto auto 10px auto;
+}
+
+.actions-form {
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+.actions-invoke {
+  margin-top: 10px !important;
+  flex-direction: column;
+}
+
+.actions-invoke-button {
+  width: 75px;
+  margin: auto;
+}
+
+.actions-invoke-progress {
+  margin: 10px auto;
+}
+
+.actions-invoke-success {
+  color: rgb(57, 185, 144);
+  margin: 10px auto;
+}
+
+.actions-invoke-error {
+  color: rgb(247, 109, 116);
+  margin: 10px auto;
+}
+
+.main-doc {
+  margin: auto auto 20px auto;
+  flex-direction: column;
+}
+
+.doc-item {
+  margin: auto auto 3px auto;
+}
+
+.doc-title {
+  margin: auto auto 10px auto;
+}
